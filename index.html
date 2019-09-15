@@ -24,9 +24,9 @@
    		</nav>
   	</header>
   	<main>
-  		<h1>Нёрдс</h1>
+  		<h1 class="visually-hidden">Нёрдс</h1>
   		<section>
-  			<h2>Превью продуктов компании</h2>
+  			<h2 class="visually-hidden">Превью продуктов компании</h2>
   		<ul class="slider">
    			<li class="slide-1">
    				<p>Долго, дорого,<br>скрупулезно.</p>
@@ -49,7 +49,7 @@
    		</ul>
    	</section>
     <section>
-    	<h2> Список товаров</h2>
+    	<h2 class="visually-hidden"> Список товаров</h2>
     <ul>
           <li>
             <h3>Веб-Сайты</h3>
@@ -80,7 +80,7 @@
       </ul>
     </section>
     <section>
-    	<h2>Информация про фирму</h2>
+    	<h2 class="visually-hidden">Информация про фирму</h2>
     		<p>Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
     		<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
             <h3>Выполняем заказы на разработку:</h3>
@@ -89,7 +89,7 @@
             	<li>Мобильных приложений для iOS и Android</li>
             	<li>Слайдшоу и видео для корпоративных презентаций</li>
             </ul>
-    		<img src="img/nerds-illustration.png" width="360" height="208" alt="nerds-illustration">
+    		<img src="img/nerds-illustration.jpg" width="360" height="208" alt="nerds-illustration">
     		<p>с 2004 года Любим точность во всем:</p>
     		<table>
     			<tr>
@@ -105,7 +105,7 @@
     		</table>
     </section>
     <section>
-    	<h2>Партнеры</h2>
+    	<h2 class="visually-hidden">Партнеры</h2>
     	<ul>
     		<li><img src="img/logo-1.png" width="199" height="68" alt="htmlacademy"></li>
     		<li><img src="img/logo-2.png" width="209" height="90" alt="borodinski"></li>
@@ -114,9 +114,9 @@
     	</ul>
     </section>
     <section>
-    	<h2>Адрес расположения фирмы</h2>
-    	<img src="img/map.png" width=375" height="208" alt="map">
-    	<span><img src="img/map-marker.png" width=231" height="190" alt="map-marker"></span>
+    	<h2 class="visually-hidden">Адрес расположения фирмы</h2>
+    	<img src="img/map.png" width="375" height="208" alt="map">
+    	<span><img src="img/map-marker.png" width="231" height="190" alt="map-marker"></span>
    			<h3>NЁRDS DESIGN STUDIO</h3>
    			<p class="contacts">
    			191186, Санкт-Петербург,  ул. Б. Конюшенная, д. 19/8  
@@ -138,8 +138,26 @@
     </footer>
     <section class="modal">
    		<h2>Напишите нам</h2>
-   		<p>Ведите свое имя</p>
-   		<!-- Здесь будет форма -->
+   		<form action="https://echo.htmlacademy.ru" method="post"> 
+   			<p>
+   		  <label for="user-name">Имя</label>
+          <input id="user-name" type="text" name="Имя" placeholder="Имя">
+   			</p>
+   			<p>
+   		  <label for="user-email">Ваша электроная почта</label>
+          <input id="user-email" type="email" name="email" placeholder="email@example.com">
+   			</p>
+   			<p>
+   		  <label for="phone">Мобильный телефон</label>
+          <input id="phone" type="tel" name="phone" placeholder="+3 093 45-45-986">
+   			</p>
+   			<p>
+   			<label for="message">Ваше сообщение</label>
+          <textarea rows="4" cols="40" id="message" name="phone" placeholder="Чем вам помочь?">
+          </textarea>
+   			</p>
+   			<button type="submit">Отправить</button>
+   		</form>
    	</section>
   </body>
 </html>
