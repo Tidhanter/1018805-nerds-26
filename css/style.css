@@ -195,6 +195,9 @@ a {
 	font-weight: 700;
 	text-transform: uppercase;
 }
+.form-label {
+	color: #283136;
+}
 
 .filter-input:disabled + label {
 	color: #e9eaea;
