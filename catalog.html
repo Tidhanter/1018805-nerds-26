@@ -26,12 +26,31 @@
   	</header>
     <main>
       <h1 class="shop-patterns"> Магазин готовых шаблонов</h1>
-      <h2>Стоимость:</h2>
-      <div class="filter-range"></div>
-      <div class="filter-price"></div>
       <section>
       <h2 class="visually-hidden">Фильтры шаблонов</h2>
       <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+        <fieldset>
+          <legend class="cost">Стоимость:</legend>
+          <div class="filter-parametrs">
+            <div class="filter-range">
+              <div class="filter-scale">
+                <div class="flter-bar"></div>
+              </div>
+          <div class="filter-toggle toggle-min"></div>
+          <div class="filter-toggle toggle-max"></div>
+            </div>
+            <div class="filter-price">
+              <div class="price-column">
+                <label class="filter-label" for="text-1">от</label>
+                <input id="text-1" class="cost-input" type="text" value="0">
+              </div>
+              <div class="price-column">
+                <label class="filter-label" for="item-2">до</label>
+                <input id="item-2" class="cost-input" type="text" value="15000">
+              </div>
+            </div>
+          </div>
+        </fieldset>
         <fieldset>
         <legend class="grid">Сетка:</legend>
         <ul>
