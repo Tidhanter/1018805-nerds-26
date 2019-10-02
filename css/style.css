@@ -47,6 +47,8 @@ a {
 
 .site-navigation,
 .user-navigation {
+	margin: 0;
+	padding: 0;
 	list-style: none;
 }
 .site-navigation a,
@@ -232,4 +234,92 @@ a {
 	font-size: 16px;
 	line-height: 22px;
 	font-weight: 400;
+}
+
+/*----Сеточные стили----*/
+
+body {
+	position: relative;
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+}
+.main-header {
+	padding-bottom: 130px;
+}
+.main-navigation {
+	display: flex;
+	justify-content: space-around;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.product-list {
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.main-footer {
+	padding: 60px 0;
+}
+.social-text {
+	width: 555px;
+	margin: 0;
+}
+.footer-social {
+	width: 265px;
+	margin:0;
+	margin-right: 135px;
+}
+.main-footer .container {
+	display: flex;
+}
+.filter-product {
+	width: 270px;
+	margin-left: 90px;
+}
+.catalog {
+	width: 775px;
+}
+.catalog-columns {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 100px;
+}
+.catalog-item {
+width:368px;
+min-height:620px;
+margin-bottom: 20px;
+margin-right: 20px;
+}
+.catalog-list {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
+
+	list-style: none;
+}
+.catalog-item:nth-child(2n) {
+	margin-right: 0;
+}
+.pagination-list {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 25px;
+
+	list-style: none;
+}
+.sort {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	
+	list-style: none;
 }

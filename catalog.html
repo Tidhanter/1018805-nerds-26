@@ -6,12 +6,12 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" >
   </head>
-  <body>
-  	<header class="main-header">
-      <a class="main-header-logo" href="index.html">
+  <body class="inner-page">
+  	<header class="main-header container">
+  		<nav class="main-navigation">
+        <a class="main-header-logo" href="index.html">
           <img src="img/nerds-logo.svg" width="160" height="65" alt="Дизайн-студия Нёрдс">
         </a>
-  		<nav class="main-navigation">
   			<ul class="site-navigation">
   				<li class="menu-item"><a href="index.html">Студия</a></li>
   				<li class="menu-item"><a href="">Клиенты</a></li>
@@ -24,9 +24,10 @@
   			</ul>
    		</nav>
   	</header>
-    <main>
+    <main class="container">
       <h1 class="shop-patterns"> Магазин готовых шаблонов</h1>
-      <section>
+      <div class="catalog-columns">
+      <section class="filter-product">
       <h2 class="visually-hidden">Фильтры шаблонов</h2>
       <form class="filter" method="get" action="https://echo.htmlacademy.ru">
         <fieldset>
@@ -96,10 +97,10 @@
      <button class="show" type="submit">Показать</button>
       </form>
     </section>
-      <section>
+      <section class="catalog">
         <h2 class="visually-hidden">Список шаблонов</h2>
         <h3>Сортировать</h3>
-        <ul>
+        <ul class="sort">
           <li><a href="#">По цене</a></li>
           <li><a href="#">По типу</a></li>
           <li><a href="#">По названию</a></li>
@@ -156,13 +157,14 @@
             <a class="button" href="">9 900 РУБ.</a>
           </li>
         </ul>
-      </section>
-        <ul>
+        <ul class="pagination-list">
           <li><a>1</a></li>
           <li><a href="#">2</a></li>
           <li><a href="#">3</a></li>
           <li><a href="#">Следующая</a></li>
         </ul>
+      </section>
+      </div>
        <section>
       <h2 class="visually-hidden">Адрес расположения фирмы</h2>
       <img src="img/map.png" width="375" height="208" alt="map">
@@ -176,6 +178,7 @@
     </section>  
     </main>
     <footer class="main-footer">
+      <div class="container">
       <div class="footer-social">
         <ul>
           <li><a class="social-button" href="#">Наша група ВК</a></li>
@@ -187,6 +190,7 @@
       <p class="footer-slogan">Давайте дружить, это выгодно!</p>
       <p class="footer-discount">Скидка 10% для друзей из социальных сетей.</p>
       </div>
+    </div>
     </footer>
     <section class="modal">
       <h2>Напишите нам</h2>
