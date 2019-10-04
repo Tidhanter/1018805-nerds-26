@@ -7,7 +7,8 @@
     <link href="css/style.css" rel="stylesheet" >
   </head>
 <body>
-  	<header class="main-header container">
+  	<header class="main-header">
+  		<div class="container">
   		<nav class="main-navigation">
   			<a class="main-header-logo">
   				<img src="img/nerds-logo.svg" width="160" height="65" alt="Дизайн-студия Нёрдс">
@@ -24,32 +25,40 @@
   				</li>
   			</ul>
    		</nav>
-  	</header>
-  	<main class="container">
-  		<h1 class="visually-hidden">Дизайн-студия Нёрдс</h1>
-  		<section>
-  			<h2 class="visually-hidden">Превью продуктов компании</h2>
-  		<ul class="slider">
-   			<li class="slide-1">
-   				<p>Долго, дорого,<br>скрупулезно.</p>
+   	</div>
+   		<h1 class="visually-hidden">Дизайн-студия Нёрдс</h1>
+   		<div class="container">
+  		<section class="slider">
+        <h2 class="visually-hidden">Превью продуктов компании</h2>
+        <input class="visually-hidden" type="radio" id="product-1" name="toggle" checked>
+        <input class="visually-hidden" type="radio" id="product-2" name="toggle">
+        <input class="visually-hidden" type="radio" id="product-3" name="toggle">
+        <div class="slider-controls">
+          <label class="slider-controls-item slider-controls-item--1" for="product-1">Первый</label>
+          <label class="slider-controls-item slider-controls-item--2" for="product-2">Второй</label>
+          <label class="slider-controls-item slider-controls-item--3" for="product-3">Третий</label>
+  		<ul class="slider-list">
+   			<li class="slider-item">
+   				<h3>Долго, дорого,<br>скрупулезно.</h3>
    				<p>Математически выверенный дизайн<br>для вашего сайта или мобильного приложения.</p>
-   				<img src="img/slide1.png" width="698" height="413" alt="slide1">
-   				<a class="button" href="#">Узнать больше</a>
+   				<a class="button-slider" href="#">Узнать больше</a>
    			</li>
-   			<li class="slide-2">
-   				<p>Любим математику как никто другой</p>
+   			<li class="slider-item">
+   				<h3>Любим математику как никто другой</h3>
    				<p>Никакого креатива, только математические формули для расчета идеальных пропорций.</p>
-   				<img src="img/slide2.png" width="663" height="430" alt="slide2">
-   				<a class="button" href="#">Узнать больше</a>
+   				<a class="button-slider" href="#">Узнать больше</a>
    			</li>
-   			<li class="slide-3">
-   				<p>Только ночь,<br>только хардкор</p>
+   			<li class="slider-item">
+   				<h3>Только ночь,<br>только хардкор</h3>
    				<p>Работать днем, как все? Мы против этого.<br> Ближе к полуночи работа только начинается.</p>
-   				<img src="img/slide3.png" width="759" height="411" alt="slide3">
-   				<a class="button" href="#">Узнать больше</a>
+   				<a class="button-slider" href="#">Узнать больше</a>
    			</li>
    		</ul>
+   	</div>
    	</section>
+  	</header>
+  	<main>
+  	<div class="container">	
     <section class="product">
     	<h2 class="visually-hidden"> Список товаров</h2>
     <ul class="product-list">
@@ -79,6 +88,8 @@
           </li>
       </ul>
     </section>
+</div>
+    <div class="container">
     <section>
     	<h2 class="visually-hidden">Информация про фирму</h2>
     		<p>Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
@@ -104,6 +115,8 @@
     			</tr>
     		</table>
     </section>
+</div>
+<div class="container">
     <section>
     	<h2 class="visually-hidden">Партнеры</h2>
     	<ul>
@@ -113,6 +126,8 @@
     		<li><img src="img/logo-4.png" width="173" height="84" alt="mishka"></li>
     	</ul>
     </section>
+</div>
+<div>
     <section>
     	<h2 class="visually-hidden">Адрес расположения фирмы</h2>
     	<img src="img/map.png" width="375" height="208" alt="map">
@@ -123,23 +138,22 @@
    			тел. +7 (812) 275-75-75
    		</p>
    		<a class="button" href="#">Напишите нам</a>
-    </section>	
+    </section>
+    </div>	
   </main>
-  	<footer class="main-footer container">
-  		<div class="container">
-      <div class="footer-social">
-        <ul>
+  <div class="container">
+  	<footer class="main-footer">
+        <ul class="footer-social">
           <li><a class="social-button" href="#">Наша група ВК</a></li>
           <li><a class="social-button" href="#">Наша група Facebook</a></li>
           <li><a class="social-button" href="#">Наш Инстаграм</a></li>
         </ul>
-      </div>
       <div class="social-text">
       <p class="footer-slogan">Давайте дружить, это выгодно!</p>
       <p class="footer-discount">Скидка 10% для друзей из социальных сетей.</p>
-      </div>
   </div>
     </footer>
+</div>
     <section class="modal">
    		<h2>Напишите нам</h2>
    		<form action="https://echo.htmlacademy.ru" method="post"> 
