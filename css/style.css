@@ -169,19 +169,7 @@ a {
 	position: relative;
     margin-right: 50px;
 }
-.menu-item-basket {
-	display: inline-block;
-	position: relative;
-}
-.active-basket::before {
-  content: "";
-  position: absolute;
-  background: #fb565a;
-  height: 2px;
-  width: 100px;
-  bottom: -5px;
-  left: 25px;
-}
+
 .active::before {
   content: "";
   position: absolute;
@@ -225,6 +213,7 @@ a {
 }
 .product p {
 	color: #283136;
+	width: 240px;
 } 
 .product h3 {
 	font-size: 24px;
@@ -242,6 +231,7 @@ a {
 	color: #ffffff;
 	text-transform: uppercase;
 	text-align: center;
+	vertical-align: middle;
 	text-decoration: none;
 
 	border-radius: 3px;
@@ -258,6 +248,7 @@ a {
 	color: #ffffff;
 	text-transform: uppercase;
 	text-align: center;
+	vertical-align: middle;
 	text-decoration: none;
 
 	background-color: #fb565a;
@@ -277,12 +268,14 @@ a {
 
 .app {
 	background-color: #00ca74;
+	margin-top: 40px;
 }
 .web-site {
 	background-color: #fb565a;
 }
 .presentation {
 	background-color: #efc84a;
+	margin-top: 40px;
 }
 .web-site:hover {
 	background-color: #e74246;
@@ -346,8 +339,8 @@ a {
 	line-height: 18px;
 	font-weight: 500;
 	text-align: center;
-	color: #000000;
 	vertical-align: middle;
+	color: #000000;
 	text-transform: uppercase;
 	outline: none;
 
@@ -851,6 +844,7 @@ input[type=radio]:checked + label::before {
 	line-height: 18px;
 	font-weight: 500;
 	text-align: center;
+	vertical-align: middle;
 	color: #ffffff;
 	
 	text-transform: uppercase;
@@ -1017,7 +1011,7 @@ input[type=radio]:checked + label::before {
   display: block;
   margin: 0 auto;
   text-align: center;
-  width: 215px;
+  width: 230px;
 }
 
 .pagination-list {
@@ -1057,15 +1051,18 @@ input[type=radio]:checked + label::before {
 	width: 260px;
 	text-transform: uppercase;
 	text-align: center;
+	vertical-align: middle;
 }
 .button-adress  {
 	display: block;
 	width: 200px;
 	padding: 16px 0;
+	margin-top: 35px;
 	font-size: 16px;
 	line-height: 18px;
 	font-weight: 500;
 	text-align: center;
+	vertical-align: middle;
 	color: #ffffff;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -1129,7 +1126,7 @@ input[type=radio]:checked + label::before {
     width: 960px;
     height: 590px;
     background-color: #ffffff;
-    box-shadow: -1px 12px 19px -5px #000000;
+    box-shadow: 0px 20px 40px 0px rgba(0, 1, 1, 0.75);
     display: none;
 }
 
@@ -1158,7 +1155,6 @@ input[type=radio]:checked + label::before {
   padding-left: 100px;
   padding-right: 100px;
 }
-
 .modal-title {
   position: relative;
   font-size: 45px;
@@ -1189,7 +1185,6 @@ input[type=radio]:checked + label::before {
     padding: 8px 12px;
     border: 2px solid #d7dcde;
 }
-
 .modal-input, .modal-message {
   display: inline-block;
   box-sizing: border-box;
@@ -1249,6 +1244,7 @@ input[type=radio]:checked + label::before {
     padding-top: 17px;
     padding-bottom: 17px;
     text-align: center;
+    vertical-align: middle;
     border-radius: 5px;
 }
 .btn:hover {
@@ -1279,24 +1275,16 @@ input[type=radio]:checked + label::before {
 .modal-close:active {
   opacity: .1;
 }
+
 .container-map {
 	width: 100%;
 	margin: 0 auto;
 	box-sizing: border-box;
 }
-/*.map-pointer {
-	position: absolute;
-    left: 1072px;
-    top: 1970px;
-	width: 231px;
-	height: 190px;
-	background-image: url("../img/map-marker.png");
-}
-*/
+
 .adress {
 	position: absolute;
-	left: 393px;
-	top: 1935px;
+	top: 1925px;
     min-width: 320px;
     min-height: 308px;
     background: #ffffff;
@@ -1307,15 +1295,16 @@ input[type=radio]:checked + label::before {
 }
 .adress-catalog {
 	position: absolute;
-	left: 393px;
-	top: 2655px;
+	top: 2650px;
+    min-width: 320px;
+    min-height: 308px;
+    background: #ffffff;
+    box-sizing: border-box;
+    display: block;
+    z-index: 30;
+    padding: 40px 50px;
 }
-/*.pointer-catalog {
-	position: absolute;
-    left: 1072px;
-    top: 2688px;
-}
-*/
+
 .information {
 	width: 700px;
 
@@ -1327,4 +1316,23 @@ input[type=radio]:checked + label::before {
 	position: relative;
 	border: none;
 	width:100%; 
+}
+.container-contacts {
+	width: 1160px;
+	margin: 0 auto;
+}
+.phone {
+	color: #000000;
+}
+.contacts {
+	width: 210px;
+}
+.cart-1 {
+	width: 210px;
+}
+.cart-2 {
+	width: 230px;
+}
+.cart-4 {
+width: 200px;
 }
