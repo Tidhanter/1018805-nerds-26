@@ -35,6 +35,8 @@ a {
 
 .slider {
   position: relative;
+  bottom: 9px;
+  right: 1px;
   background-color: #eeeeee;
 }
 
@@ -161,13 +163,15 @@ a {
   line-height: 30px;
   width: 1166px;
   margin: 0 auto;
+  padding-top: 48px;
+  padding-left: 4px;
   color: #000000;
 }
 
 .menu-item {
   display: inline-block;
   position: relative;
-  margin-right: 50px;
+  padding-left: 40px;
   vertical-align: top;
 }
 
@@ -176,16 +180,21 @@ a {
   position: absolute;
   background: #fb565a;
   height: 2px;
-  width: 100%;
+  width: 66%;
   bottom: -5px;
 }
 
 .site-navigation,
 .user-navigation {
-  margin: 0;
-  padding: 0;
+  margin-top: 22px;
+  margin-right: 30px;
   list-style: none;
 }
+
+.menu-item:first-child {
+  padding-left: 30px;
+}
+
 
 .site-navigation a,
 .user-navigation a {
@@ -212,7 +221,7 @@ a {
 }
 
 .product-item {
-  margin-top: 80px;
+  margin-top: 70px;
   padding-bottom: 80px;
   border-bottom: 2px solid #eeeeee;
 }
@@ -220,12 +229,21 @@ a {
 .product p {
   color: #283136;
   width: 240px;
+  margin-bottom: 8px;
 }
 
 .product h3 {
   font-size: 24px;
   line-height: 30px;
   text-transform: uppercase;
+  max-width: 300px;
+  margin-top: 19px;
+  margin-bottom: 7px;
+}
+
+
+.product:nth-child(3) {
+  margin-right: 61px;
 }
 
 .button {
@@ -272,7 +290,7 @@ a {
 
 .app {
   background-color: #00ca74;
-  margin-top: 40px;
+  margin-top: 31px;
 }
 
 .web-site {
@@ -281,7 +299,7 @@ a {
 
 .presentation {
   background-color: #efc84a;
-  margin-top: 40px;
+  margin-top: 32px;
 }
 
 .web-site:hover {
@@ -324,6 +342,7 @@ a {
 
 .footer-slogan {
   margin: 0;
+  margin-top: 7px;
   font-size: 36px;
   line-height: 36px;
   font-weight: 700;
@@ -333,14 +352,16 @@ a {
   font-size: 16px;
   line-height: 22px;
   font-weight: 400;
+  margin-top: 10px;
 }
 
 .shop-patterns {
   font-size: 55px;
   line-height: 55px;
   font-weight: 500;
-  padding-top: 80px;
-  padding-bottom: 115px;
+  padding-top: 69px;
+  padding-right: 5px;
+  padding-bottom: 108px;
   margin: 0;
   text-align: center;
   background-color: #eeeeee;
@@ -349,7 +370,7 @@ a {
 .show {
   display: block;
   width: 260px;
-  padding: 16px 0;
+  padding: 17px 0;
   font-size: 16px;
   line-height: 18px;
   font-weight: 500;
@@ -396,6 +417,7 @@ a {
 }
 
 .range-filter legend {
+  margin-bottom: 48px;
   font-size: 18px;
   line-height: 30px;
   font-weight: 700;
@@ -423,10 +445,6 @@ a {
 .range-filter {
   width: 260px;
   margin-top: 62px;
-}
-
-.range-filter legend {
-  margin-bottom: 57px;
 }
 
 .range-controls {
@@ -473,6 +491,7 @@ a {
 
 .price-controls {
   display: flex;
+  padding-top: 3px;
 }
 
 .price-controls label {
@@ -503,10 +522,6 @@ a {
 .catalog {
   margin-left: 20px;
   margin-right: 20px;
-}
-
-.catalog-list {
-  list-style: none;
 }
 
 .catalog-item h3 {
@@ -584,7 +599,7 @@ a {
 .footer-social {
   width: 265px;
   margin: 0;
-  margin-right: 139px;
+  margin-right: 134px;
 }
 
 .footer-social ul {
@@ -625,6 +640,9 @@ a {
   width: 760px;
   margin-top: 65px;
   margin-bottom: 0;
+  padding-top: 2px;
+  padding-left: 34px;
+  list-style: none;
 }
 
 .catalog-item:nth-child(2n) {
@@ -639,16 +657,10 @@ a {
   list-style: none;
 }
 
-.sort {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
 .user-navigation .basket-button {
   position: relative;
-  padding-left: 50px;
+  padding-left: 64px;
+  left: 24px;
 }
 
 .basket-button::before {
@@ -667,7 +679,7 @@ a {
   display: flex;
   justify-content: space-between;
   padding-top: 30px;
-  padding-bottom: 80px;
+  padding-bottom: 30px;
   border-bottom: 2px solid #eeeeee;
 }
 
@@ -675,6 +687,7 @@ a {
   padding: 0;
   padding-top: 45px;
   margin: 0;
+  margin-bottom: 33px;
   font-size: 45px;
   line-height: 45px;
   font-weight: 500;
@@ -696,7 +709,7 @@ a {
   font-weight: 600;
   text-transform: uppercase;
   padding: 0;
-  margin-bottom: 25px;
+  margin-bottom: 24px;
 
 }
 
@@ -706,6 +719,8 @@ a {
 
 .information-list li {
   position: relative;
+  right: 5px;
+  bottom: 2px;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -730,11 +745,12 @@ a {
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 25px;
+  margin-top: 29px;
 }
 
 .statistics-table {
-  margin-top: 40px;
+  margin-top: 46px;
+  max-width: 360px;
 }
 
 .table-row th {
@@ -757,6 +773,7 @@ a {
   line-height: 18px;
   font-weight: 400;
   color: #283136;
+  padding-top: 5px;
 }
 
 .partners {
@@ -769,7 +786,7 @@ a {
 
 .nerds-partners {
   padding-top: 47px;
-  padding-bottom: 50px;
+  padding-bottom: 7px;
   margin-bottom: 81px;
   border-bottom: 2px solid #eeeeee;
 }
@@ -788,6 +805,33 @@ a {
 
 .partners li {
   position: relative;
+  right: 8px;
+  bottom: 11px;
+}
+
+.decor:nth-child(2) {
+  right: 32px;
+  bottom: 16px;
+}
+
+.decor:nth-child(2)::after {
+  top: 17px;
+  left: 253px;
+}
+
+.decor:nth-child(3) {
+  right: 46px;
+  bottom: 16px;
+}
+
+.decor:nth-child(3)::after {
+  top: 0px;
+  left: 240px;
+}
+
+.partners-mishka:nth-child(4) {
+  right: 44px;
+  bottom: 12px;
 }
 
 .decor::after {
@@ -801,27 +845,33 @@ a {
 }
 
 .filter {
-  margin-top: 61px;
+  margin-top: 54px;
 }
 
-.filter legend {
-  margin-bottom: 26px;
+.filter-options {
+  margin-bottom: 10px;
+}
+
+.filter-grid {
+  margin-bottom: 10px;
 }
 
 .filter fieldset {
   padding: 0;
   margin: 0;
-  margin-bottom: 30px;
+  margin-top: 34px;
+  margin-bottom: 34px;
   border: none;
 }
 
 .filter fieldset:first-child {
-  margin-bottom: 22px;
+  padding-bottom: 22px;
 }
 
 .filter ul {
   padding: 0;
   margin: 0;
+  padding-top: 2px;
   list-style: none;
   line-height: 18px;
 }
@@ -834,6 +884,8 @@ a {
 .filter-option label {
   position: relative;
   display: block;
+  top: 3px;
+  right: 10px;
   cursor: pointer;
   user-select: none;
 }
@@ -841,8 +893,8 @@ a {
 .filter-input-checkbox+label::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: -42px;
+  top: -2px;
+  left: -36px;
   width: 27px;
   height: 25px;
   background-image: url("../img/checkbox-off.svg");
@@ -855,8 +907,8 @@ input[type=checkbox]:checked+label::before {
   content: "";
   width: 27px;
   height: 23px;
-  top: 0;
-  left: -42px;
+  top: -3px;
+  left: -35px;
   position: absolute;
   background-image: url(../img/checkbox-on.svg);
 }
@@ -865,8 +917,8 @@ input[type=radio]:checked+label::before {
   content: "";
   width: 27px;
   height: 25px;
-  top: 0px;
-  left: -42px;
+  top: -3px;
+  left: -35px;
   position: absolute;
   background-image: url(../img/radio-on.svg);
 }
@@ -874,8 +926,8 @@ input[type=radio]:checked+label::before {
 .filter-label-radio::before {
   content: "";
   position: absolute;
-  top: 0px;
-  left: -42px;
+  top: -2px;
+  left: -35px;
   width: 27px;
   height: 25px;
   background-image: url("../img/radio-off.svg");
@@ -920,9 +972,9 @@ input[type=radio]:checked+label::before {
 }
 
 .catalog-sort {
-  margin-top: 60px;
+  margin-top: 52px;
   margin-bottom: 90px;
-  margin-left: 40px;
+  margin-left: 36px;
 }
 
 .sort {
@@ -940,7 +992,7 @@ input[type=radio]:checked+label::before {
   font-size: 18px;
   line-height: 18px;
   font-weight: 700;
-  margin-right: 240px;
+  margin-right: 245px;
   margin-top: 5px;
   text-transform: uppercase;
   vertical-align: middle;
@@ -950,13 +1002,18 @@ input[type=radio]:checked+label::before {
   display: inline-block;
   font-size: 14px;
   line-height: 18px;
+  font-weight: 400;
+  color: #000000;
+  margin-top: 9px;
   margin-left: 18px;
   vertical-align: middle;
 }
 
 .catalog-toggle-list {
   display: inline-block;
-  margin-left: 37px;
+  position: relative;
+  top: 4px;
+  left: 52px;
   vertical-align: top;
 }
 
@@ -981,20 +1038,13 @@ input[type=radio]:checked+label::before {
 .catalog-toggle-down {
   width: 11px;
   height: 10px;
-  margin-right: 10px;
+  margin-right: 14px;
 }
 
 .catalog-toggle-up {
   width: 11px;
   height: 10px;
 
-}
-
-.catalog-sort-item {
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: 400;
-  color: #000000;
 }
 
 .catalog-sort-item a {
@@ -1017,11 +1067,11 @@ input[type=radio]:checked+label::before {
 }
 
 .catalog-item {
+  position: relative;
   width: 360px;
   min-height: 575px;
   margin-right: 40px;
-  margin-bottom: 80px;
-  position: relative;
+  margin-bottom: 63px;
 }
 
 .catalog-item:hover {
@@ -1036,9 +1086,6 @@ input[type=radio]:checked+label::before {
   background-image: url("../img/browser.svg");
 }
 
-.catalog-item:nth-child(2n) {
-  margin-right: 0;
-}
 
 .catalog-item::before {
   content: "";
@@ -1076,13 +1123,16 @@ input[type=radio]:checked+label::before {
 
 .catalog-hover-wrp {
   display: block;
-  margin: 0 auto;
-  text-align: center;
   width: 230px;
+  max-height: 533px;
+  margin: 0 auto;
+  padding-bottom: 43px;
+  text-align: center;
+  overflow-y: auto;
 }
 
 .pagination-list {
-  margin-left: 40px;
+  margin-left: 31px;
   margin-bottom: 60px;
 }
 
@@ -1099,7 +1149,7 @@ input[type=radio]:checked+label::before {
   padding: 16px 21px;
   background-color: #eeeeee;
   border-radius: 5%;
-  margin-right: 6px;
+  margin-right: 8px;
 }
 
 .pagination-curent {
@@ -1128,8 +1178,8 @@ input[type=radio]:checked+label::before {
 .button-adress {
   display: block;
   width: 200px;
-  padding: 16px 0;
-  margin-top: 35px;
+  padding: 16px 10px;
+  margin-top: 30px;
   font-size: 16px;
   line-height: 18px;
   font-weight: 500;
@@ -1374,26 +1424,27 @@ input[type=radio]:checked+label::before {
 
 .adress {
   position: absolute;
-  top: -375px;
-  min-width: 320px;
+  top: -372px;
+  max-width: 318px;
   min-height: 308px;
   background: #ffffff;
   box-sizing: border-box;
   display: block;
   z-index: 30;
-  padding: 40px 50px;
+  padding: 35px 49px;
 }
+
 
 .adress-catalog {
   position: absolute;
-  top: -370px;
-  min-width: 320px;
+  top: -372px;
+  max-width: 318px;
   min-height: 308px;
   background: #ffffff;
   box-sizing: border-box;
   display: block;
   z-index: 30;
-  padding: 40px 50px;
+  padding: 33px 49px;
 }
 
 .information {
@@ -1403,6 +1454,7 @@ input[type=radio]:checked+label::before {
 
 .statistics {
   width: 360px;
+  margin-top: 10px;
 }
 
 .map iframe {
@@ -1435,4 +1487,8 @@ input[type=radio]:checked+label::before {
 
 .cart-4 {
   width: 200px;
+}
+
+.main-logo img {
+  margin-top: 10px;
 }
